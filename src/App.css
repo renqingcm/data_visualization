@@ -12,6 +12,8 @@ body {
   text-align: center;
   position: relative;
   z-index: 2;
+  height: 100vh;
+  background-image: url('/background4.jpg'); 
 }
 
 .App::before {
