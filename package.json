@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://renqingcm.github.io/com-480-RYL",
+  "homepage": "https://renqingcm.github.io/data_visual",
   "eslintConfig": {
     "extends": [
       "react-app",
