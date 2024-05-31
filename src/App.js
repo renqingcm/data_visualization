@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; 
 import './App.css';
+import background from '../public/background4.jpg';
 import FilterComponent from './FilterComponent';
 import CustomDropdown from './CustomDropdown';
 
@@ -59,7 +60,7 @@ function App() {
   }, [selectedJob]);
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${background})` }}>
       <header className="App-header">
         <div className="stars">
           {stars.map(star => (

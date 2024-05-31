@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   overflow: auto;
-  background-image: url('/background4.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
